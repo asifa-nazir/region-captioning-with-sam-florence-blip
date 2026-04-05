@@ -1,15 +1,15 @@
-# Automated Region-Based Captioning: A SAM-3, Florence-2, and BLIP-2 Pipeline
+# Automated Region-Based Captioning with SAM-3, Florence-2, and BLIP-2 Pipeline
 
 ![Comparison Result](assets/image.png)
 
-## Research Objective
-This repository implements an automated vision-language pipeline for dense, region-specific image annotation. Using Segment Anything Model 3 (SAM-3) for zero-shot object extraction, the pipeline isolates regions of interest and evaluates them with Florence-2 and BLIP-2.
+## Project Overview
+This repository presents an interactive vision-language pipeline for localized image understanding. Using **Segment Anything Model 3 (SAM-3)** for zero-shot object extraction, the pipeline isolates a target region and compares caption generation using **Florence-2** and **BLIP-2**.
 
-The main goal is to compare how a spatially detailed model such as Florence-2 behaves against BLIP-2 when both are asked to describe tightly cropped, low-context object regions.
+The main goal is to explore how caption quality changes when vision-language models are applied to tightly cropped, low-context object regions instead of the full image.
 
 ## Repository Structure
 ```text
-region-captioning-with-sam-florence-blip/
+region-captioning-with-sam3-florence-2-blip-2/
 |-- assets/
 |   `-- image.png
 |-- notebooks/
